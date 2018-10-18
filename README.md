@@ -1,1 +1,1 @@
-former repo crushed, here is my xxx commit
+This is a collection of short R scripts I use in my everyday tasks
