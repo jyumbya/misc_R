@@ -12,6 +12,6 @@ for (shp in shpLs){
   
   shp <- st_read(shp)
   
-  st_write(shp, paste0("D:/Junk/", shp_name, ".geojson"), driver="GeoJSON", delete_dsn = TRUE)
+  st_write(shp, paste0(iDir, "/", shp_name, ".geojson"), driver="GeoJSON", delete_dsn = TRUE)
 
 }
